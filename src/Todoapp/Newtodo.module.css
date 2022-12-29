@@ -1,0 +1,46 @@
+.body {
+  width: 420px;
+  background-color: #333;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.divGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.textA {
+  resize: none;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.inPut {
+  width: 100%;
+  margin-left: 0px;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.btn {
+  border: none;
+  background-color: rgb(12, 109, 109);
+  color: rgb(248, 247, 244);
+  font-size: 20px;
+  border-radius: 60px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: blue;
+  transition: 0.3s;
+}
